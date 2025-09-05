@@ -22,7 +22,6 @@ performance-focuses
 
     Areas for Future Enhancement
         When query data only index field that are only needed on the frontend, to improve loading time.
-        The use of v-html for link.label poses a potential XSS risk if the backend doesn’t sanitize labels. Integrate a library like DOMPurify to sanitize HTML content before rendering.
         Add ARIA attributes (e.g., aria-current="page" for active links, aria-disabled="true" for disabled links) to improve screen reader support.
         Ensure keyboard navigation is fully supported, particularly for the Link component, by adding focus states and tabindex where needed.
         For large datasets with many links, consider implementing lazy loading or virtual scrolling for the CategoriesList component to render only visible links, reducing initial DOM load.

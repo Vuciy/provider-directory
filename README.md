@@ -21,7 +21,8 @@ performance-focuses
 
 
     Areas for Future Enhancement
-        When querying data, only index the fields needed on the frontend to improve loading time
+        When querying data, only index the fields needed on the frontend to improve loading time.
+        Use caching systems like Redis to improve performance and reduce loading time.
         Add ARIA attributes (e.g., aria-current="page" for active links, aria-disabled="true" for disabled links) to improve screen reader support.
         Ensure keyboard navigation is fully supported, particularly for the Link component, by adding focus states and tabindex where needed.
         For large datasets with many links, consider implementing lazy loading or virtual scrolling for the CategoriesList component to render only visible links, reducing initial DOM load.
@@ -31,14 +32,15 @@ performance-focuses
 
 
 How to run the project
-    - Project is tested using MySQL
+    - Project is tested using MySQL.
 
     Commands
         - composer install
         - npm run insatll
         - php artisan migrate --seed
         - php artisan optimize
-        - npm run dev / npm run build if no plans to edit vue js code
+        - npm run dev      # For development
+        - npm run build    # If you do not plan to edit Vue.js code /production
         - php artisan serve
 
     Test commands

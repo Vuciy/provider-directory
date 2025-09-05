@@ -22,7 +22,8 @@ performance-focuses
 
     Areas for Future Enhancement
         When querying data, only index the fields needed on the frontend to improve loading time.
-        Use caching systems like Redis to improve performance and reduce loading time.
+        Use caching systems like Redis to improve performance and reduce loading time also index frequently accessed data.
+        Use responsive or compressed images optimized for mobile devices.
         Add ARIA attributes (e.g., aria-current="page" for active links, aria-disabled="true" for disabled links) to improve screen reader support.
         Ensure keyboard navigation is fully supported, particularly for the Link component, by adding focus states and tabindex where needed.
         For large datasets with many links, consider implementing lazy loading or virtual scrolling for the CategoriesList component to render only visible links, reducing initial DOM load.
